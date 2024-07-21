@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>עמוד אישי</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>ברוכים הבאים ל-Drive שלי</h1>
+      <h2>Israel</h2>
+      <div class="search-container"></div>
+    </header>
+    <main>
+      <section class="file-grid">
+        <!-- <div class="file-card">
+        <div class="file-info">
+            <img src="/open-folder_5994710.png" alt="" />
+          <h2 id="storage">storage</h2>
+        </div>
+        <button class="file-cardd" id="show"> show</button>
+        <button class="file-cardd" id="info"> info</button>
+        <button class="file-cardd" id="rename">rename</button>
+        <input id="input" type="text" style="display: none;">
+        <button id="re" style="display: none;">שנה</button>
+        <div class="file" ></div>
+        
+      </div> -->
+        <br /><br />
+         <div class="file-card">
+        <div class="file-info">
+          <img src="/open-folder_5994710.png" alt="" />
+          <h2 id="idh">music</h2>
+        </div>
+        <button class="file-cardd" id="show">show</button>
+        <input id="input" type="text" />
+        <button class="file-cardd" id="info">info</button>
+        <button class="file-cardd" id="redome">rename</button>
+        <div class="file" id="file-info"></div>
+      </div>
+      </section>
+      <div class="rename-file">
+        <h2>Rename File</h2>
+        <input id="Name" type="text" name="music" placeholder="Name">
+        <input id="FileName" type="text" placeholder="File Name">
+        <input id="newFileName" type="text" placeholder=" new File Name">
+        <button id="renameFileButton">Rename File</button>
+      </div>
+      <div id="response"></div>
+    </main>
+    <script src="./client.js"></script>
+  </body>
+</html>
